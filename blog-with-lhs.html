@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
+    <!-- Custom css cdn link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap Cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Aos Libarary Cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap 5 cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap 4 cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+<body class="w-100">
+
+       <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg border-bottom border-body w-100" data-bs-theme="dark" style="background-color: rgb(44, 42, 48);">
+      <div class="container-fluid py-3 px-5">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="" class="img-fluid ms-md-5 ps-md-5">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse justify-content-end pl-lg-5" id="navbarNav">
+          <ul class="navbar-nav pl-lg-4">
+            <li class="nav-item px-lg-2">
+              <a class="nav-link actives" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <!-- Dropdown lists  -->
+            <li class="nav-item dropdown px-lg-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                WORK
+              </a>
+              <ul class="dropdown-menu rounded py-0 pt-2 mt-2" style="border-top: 2px rgb(221, 221, 36) solid;">
+                <li><a class="dropdown-item pb-2" href="portfolio.html">Portfolio</a></li>
+                <li><a class="dropdown-item pb-2" href="portfolio.html">Portfolio-details</a></li>
+                <li><a class="dropdown-item pb-2" href="portfolio.html">Portfolio with LHS</a></li>
+              </ul>
+            </li>
+            <!-- Dropdown lists  -->
+            <li class="nav-item dropdown px-lg-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                BLOG
+              </a>
+              <ul class="dropdown-menu rounded py-0 pt-2 mt-2" style="border-top: 2px rgb(221, 221, 36) solid;">
+                <li><a class="dropdown-item pb-2" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item pb-2" href="blog-with-lhs.html">Blog with LHS</a></li>
+                <li><a class="dropdown-item pb-2" href="blog-with-lhs.html">Blog with RHS</a></li>
+              </ul>
+            </li>
+            <!-- Dropdown lists  -->
+            <li class="nav-item dropdown px-lg-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu rounded py-0 pt-2 mt-2" style="border-top: 2px rgb(221, 221, 36) solid;">
+                <li><a class="dropdown-item pb-2" href="about-us.html">About us</a></li>
+                <li><a class="dropdown-item pb-2" href="/services.html#faq">Faqs</a></li>
+                <li><a class="dropdown-item pb-2" href="#">Features</a></li>
+                <li><a class="dropdown-item pb-2" href="#">404</a></li>
+              </ul>
+            </li>
+            <!-- Dropdown lists  -->
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <!-- Button  -->
+          <a class="btn btn-md ml-auto text-dark" href="#appointment">Make an appointment</a>
+          <div class="hexgonnavt d-none d-lg-block">
+          <div class="hexagonnav">
+            <span><i class="fa-solid fa-scissors"></i></span>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar  -->
+
+          <main>
+
+            <!-- Breacrumb  -->
+            <section class="service py-3 w-100">
+                <div class="d-flex justify-content-center align-item-center">
+                  <div class="ml-5 my-auto">
+                    <a href="index.html" class="breadcrumb_link">Blog ></a>
+                    <a href="blog.html" class="breadcrumb_link"> <span>blog-with-lhs</span></a>
+                  </div>
+                  <div class="mr-lg-3 ml-auto">
+                    <h1 class="text-uppercase">blog</h1>
+                  </div>
+                </div>
+            </section>
+            <!-- Breacrumb  --> 
+            
+            <section class="blog-withlsh">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                            <section class="ourblog py-5 ">
+
+
+                                <div class="row mx-auto w-100">
+                                    <!-- Blog 1 card  -->
+                                    <div class="container">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-12 mb-4">
+                                      <div class="card border-0">
+                                        <img src="assets/Home/blog-img4.jpg" alt="..." class="img-fluid"
+                                        style="object-position: center; object-fit: cover; height: 500px;">
+                                        <div class="card-body p-0">
+                                          <h5 class="card-title py-1 pt-3">HAIR STYLING</h5>
+                                          <hr class="hhr" style="height: 2px; transition: 0.2s ease-in-out;">
+                                          <div class="card-text">
+                                          <div class="card-text d-flex text-white fs-6 pt-3">
+                                            <span class="text-warning fs-2 text-center p-2 px-3 mr-4" style="background-color: rgb(29, 29, 29); height: 5.5rem;">24 <br>
+                                              <small>MAY</small>
+                                            </span>
+                                            ld quo nemore constituto. Ex pri quod utamur singulis, ad admodum suavit ate quod dissentiunt nec. Alii quas id ius, ei eam diam reformidans. Mea omnium euismod cu, vis te falli officiis argumentum.
+                                            </div>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Lorem ipsum dolor sit euismod diam e
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Praesent convallis nibh ollicitudin sit amet
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Nullam ac sapien sit ac malesuada arca
+                                            </li>
+                                            <li class="mt-3">Cu vix regione urbanitas intellegebat. Usu in dolorum admodum suavitate officials te dissenperpetua.</li>
+                                            <hr class="bg-secondary">
+                                          </div>
+                                          <div class="d-flex justify-content-start align-items-center ml-1">
+                                            <i class="fa fa-user text-warning mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;"> admin</small>
+                                            <i class="fa fa-tag mr-2 text-warning ml-4" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">Hair, styles</small>
+                                            <i class="fa fa-comment text-warning ml-4 mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">
+                                              3
+                                            </small>
+                                          </div>
+                                        </div>
+                    
+                                      </div>
+                                    </div>
+                                    <hr class="bg-secondary my-5">
+                                    </div>
+                                    
+                                    <!-- Blog 1 card  -->
+                                    <!-- Blog 1 card  -->
+                                     <div class="container">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-12 mb-4">
+                                      <div class="card border-0">
+                                        <img src="assets/Home/blog-img5.jpg" alt="..." class="img-fluid"
+                                        style="object-position: center; object-fit: cover; height: 500px;">
+                                        <div class="card-body p-0">
+                                          <h5 class="card-title py-1 pt-3">HAIR STYLING</h5>
+                                          <hr class="hhr" style="height: 2px; transition: 0.2s ease-in-out;">
+                                          <div class="card-text">
+                                          <div class="card-text d-flex text-white fs-6 pt-3">
+                                            <span class="text-warning fs-2 text-center p-2 px-3 mr-4" style="background-color: rgb(29, 29, 29); height: 5.5rem;">24 <br>
+                                              <small>MAY</small>
+                                            </span>
+                                            ld quo nemore constituto. Ex pri quod utamur singulis, ad admodum suavit ate quod dissentiunt nec. Alii quas id ius, ei eam diam reformidans. Mea omnium euismod cu, vis te falli officiis argumentum.
+                                            </div>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Lorem ipsum dolor sit euismod diam e
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Praesent convallis nibh ollicitudin sit amet
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Nullam ac sapien sit ac malesuada arca
+                                            </li>
+                                            <li class="mt-3">Cu vix regione urbanitas intellegebat. Usu in dolorum admodum suavitate officials te dissenperpetua.</li>
+                                            <hr class="bg-secondary">
+                                          </div>
+                                          <div class="d-flex justify-content-start align-items-center ml-1">
+                                            <i class="fa fa-user text-warning mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;"> admin</small>
+                                            <i class="fa fa-tag mr-2 text-warning ml-4" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">Hair, styles</small>
+                                            <i class="fa fa-comment text-warning ml-4 mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">
+                                              3
+                                            </small>
+                                          </div>
+                                        </div>
+                    
+                                      </div>
+                                    </div>
+                                    <hr class="bg-secondary my-5">
+                                    </div>
+                                    
+                                    <!-- Blog 1 card  -->
+                                    <!-- Blog 1 card  -->
+                                     <div class="container">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-12 mb-4">
+                                      <div class="card border-0">
+                                        <img src="assets/Home/blog-img6.jpg" alt="..." class="img-fluid"
+                                        style="object-position: center; object-fit: cover; height: 500px;">
+                                        <div class="card-body p-0">
+                                          <h5 class="card-title py-1 pt-3">HAIR STYLING</h5>
+                                          <hr class="hhr" style="height: 2px; transition: 0.2s ease-in-out;">
+                                          <div class="card-text">
+                                          <div class="card-text d-flex text-white fs-6 pt-3">
+                                            <span class="text-warning fs-2 text-center p-2 px-3 mr-4" style="background-color: rgb(29, 29, 29); height: 5.5rem;">24 <br>
+                                              <small>MAY</small>
+                                            </span>
+                                            ld quo nemore constituto. Ex pri quod utamur singulis, ad admodum suavit ate quod dissentiunt nec. Alii quas id ius, ei eam diam reformidans. Mea omnium euismod cu, vis te falli officiis argumentum.
+                                            </div>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Lorem ipsum dolor sit euismod diam e
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Praesent convallis nibh ollicitudin sit amet
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-scissors"></i> Nullam ac sapien sit ac malesuada arca
+                                            </li>
+                                            <li class="mt-3">Cu vix regione urbanitas intellegebat. Usu in dolorum admodum suavitate officials te dissenperpetua.</li>
+                                            <hr class="bg-secondary">
+                                          </div>
+                                          <div class="d-flex justify-content-start align-items-center ml-1">
+                                            <i class="fa fa-user text-warning mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;"> admin</small>
+                                            <i class="fa fa-tag mr-2 text-warning ml-4" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">Hair, styles</small>
+                                            <i class="fa fa-comment text-warning ml-4 mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">
+                                              3
+                                            </small>
+                                          </div>
+                                        </div>
+                    
+                                      </div>
+                                    </div>
+                                    </div>
+                                    
+                                    <!-- Blog 1 card  -->
+                                </div>
+                    
+                            </section>
+                    
+                            <section class="video pb-4">
+                    
+                                <div class="container">
+                                    <video src="assets/blog/yt1s.com - TVアニメ進撃の巨人The Final Season Part 1ノンクレジットOP神聖かまってちゃん僕の戦争.mp4" controls muted style="text-align: center;" width="100%"></video>
+                                </div>
+                    
+                            </section>
+                    
+                            <section class="ourblog ">
+                    
+                                <div class="row justify-content-center w-100">
+                                    <!-- Blog 1 card  -->
+                                     <div class="container">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-12 mb-4">
+                                      <div class="card border-0 pb-4">
+                                        <div class="card-body p-0">
+                                          <h5 class="card-title py-1">BEAUTY AND HEALTH</h5>
+                                          <hr class="hhr" style="height: 2px; transition: 0.2s ease-in-out;">
+                                          <div class="card-text">
+                                          <div class="card-text d-flex text-white fs-6 pt-3">
+                                            <span class="text-warning fs-2 text-center p-2 px-3 mr-4" style="background-color: rgb(29, 29, 29); height: 5.5rem;">24 <br>
+                                              <small>MAY</small>
+                                            </span>
+                                            ld quo nemore constituto. Ex pri quod utamur singulis, ad admodum suavit ate quod dissentiunt nec. Alii quas id ius, ei eam diam reformidans. Mea omnium euismod cu, vis te falli officiis argumentum.
+                                            </div>
+                                            <hr class="bg-secondary">
+                                          </div>
+                                          <div class="d-flex justify-content-start align-items-center ml-1">
+                                            <i class="fa fa-user text-warning mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;"> admin</small>
+                                            <i class="fa fa-tag mr-2 text-warning ml-4" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">Hair, styles</small>
+                                            <i class="fa fa-comment text-warning ml-4 mr-2" aria-hidden="true"></i>
+                                            <small style="color: greenyellow;">
+                                              3
+                                            </small>
+                                          </div>
+                                        </div>
+                    
+                                      </div>
+                                    </div>
+                                    </div>
+                                </div>    
+                                    <!-- Blog 1 card  -->
+                    
+                                    <div class="container pb-4">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination justify-content-end">
+                                          <li class="page-item">
+                                            <a class="page-link">Previous</a>
+                                          </li>
+                                          <li class="page-item"><a class="page-link actives" href="#">1</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                          <li class="page-item">
+                                            <a class="page-link mr-0" href="#">Next</a>
+                                          </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                    
+                            </section>
+                        </div>
+
+                        <div class="col-lg-3 col-12 justify-content-center">
+
+                          <!-- Search box  -->
+                          <div class="search-box pt-5">
+                            <div class="input-group mb-3">
+                              <input type="text" class="form-control border-0 py-4" placeholder="Enter Keyword" aria-describedby="button-addon2">
+                              <button class="btn btn-outline-secondary border-0 px-3" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                          </div>
+
+                          <!-- Latest updates  -->
+                          <div class="latest-updates py-3">
+                            <h4 class="text-uppercase">recent updates</h4>
+                            <hr class="hhr">
+                          <!-- Update 1  -->
+                          <div class="mb-4"> 
+                            <div class="row">
+                              <div class="col-4 align-items-center">
+                                <img src="assets/blog/people1.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-8 text-uppercase my-0 ml-0 pl-0">
+                                <p class="pb-0 mb-1"><span>03</span> Feb 2024</p>
+                                <h5 class="text-white fw-normal">manichure</h5>
+                              </div>
+                            </div>
+                            <hr>
+                            <p class="text-white">
+                              Id quo nemore constituto. Ex pri quod utamur singulis.
+                            </p>
+                          </div>
+                          <!-- Update 1  -->
+                          <!-- Update 1  -->
+                          <div class="mb-4"> 
+                            <div class="row">
+                              <div class="col-4 align-items-center">
+                                <img src="assets/blog/people1.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-8 text-uppercase my-0 ml-0 pl-0">
+                                <p class="pb-0 mb-1"><span>01</span> Feb 2024</p>
+                                <h5 class="text-white fw-normal">hair styling</h5>
+                              </div>
+                            </div>
+                            <hr>
+                            <p class="text-white">
+                              Id quo nemore constituto. Ex pri quod utamur singulis.
+                            </p>
+                          </div>
+                          <!-- Update 1  -->
+                          <!-- Update 1  -->
+                          <div class="mb-4"> 
+                            <div class="row">
+                              <div class="col-4 align-items-center">
+                                <img src="assets/blog/people1.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-8 text-uppercase my-0 ml-0 pl-0">
+                                <p class="pb-0 mb-1"><span>04</span> Feb 2024</p>
+                                <h5 class="text-white fw-normal">hand spa</h5>
+                              </div>
+                            </div>
+                            <hr>
+                            <p class="text-white">
+                              Id quo nemore constituto. Ex pri quod utamur singulis.
+                            </p>
+                          </div>
+                          <!-- Update 1  -->
+                          </div>
+
+                          <!-- Category  -->
+                          <div class="category py-3">
+                            <h4 class="text-uppercase">Categories</h4>
+                            <hr class="hhr">
+                            <div class="d-flex justify-content-between pr-3">
+                            <div>
+                              <ul class="list-unstyled text-white pl-2">
+                                <li><i class="fa-solid fa-scissors pr-2"></i> Cut & Style</li>
+                                <hr>
+                                <li><i class="fa-solid fa-scissors pr-2"></i> Advanced Styling</li>
+                                <hr>
+                                <li><i class="fa-solid fa-scissors pr-2"></i> Detan & Bleach</li>
+                                <hr>
+                                <li><i class="fa-solid fa-scissors pr-2"></i> Facials</li>
+                                <hr>
+                                <li><i class="fa-solid fa-scissors pr-2"></i> Manicure</li>
+                                <hr>
+                              </ul>
+                            </div>
+                            <div class="mr-0">
+                              <ul class="list-unstyled">
+                                <li>7</li>
+                                <hr>
+                                <li>7</li>
+                                <hr>
+                                <li>7</li>
+                                <hr>
+                                <li>7</li>
+                                <hr>
+                                <li>7</li>
+                              </ul>
+                            </div>
+                            
+
+                          </div>
+
+                          <!-- Archives  -->
+                          <div class="archives py-3">
+                            <h4 class="text-uppercase">Archives</h4>
+                            <hr class="hhr">
+
+                            <div>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#" class="text-decoration-none"> <i class="fa-solid fa-box-archive"></i> June 2015</a> 
+                                  <hr>
+                                </li>
+                                <li>
+                                  <a href="#" class="text-decoration-none"> <i class="fa-solid fa-box-archive"></i> July 2015</a>
+                                  <hr>
+                                </li>
+                                <li>
+                                  <a href="#" class="text-decoration-none"> <i class="fa-solid fa-box-archive"></i> August 2015</a>
+                                  <hr>
+                                </li>
+                              </ul>
+                            </div>
+                            
+                          </div>
+
+                          <!-- photostream  -->
+                          <div class="photostream py-3">
+
+                            <h4 class="text-uppercase">flickr photostream</h4>
+                            <hr class="hhr">
+
+                            <div class="row w-100 justify-content-center align-items-center pl-4 mx-auto">
+                              <div class="col-4 p-0">
+                                <img src="http://farm8.staticflickr.com/7430/11299039673_06a1770f19_s.jpg" alt="" class="img-fluid">
+                                <img src="http://farm6.staticflickr.com/5605/15051462043_284910ee7e_s.jpg" alt="" class="img-fluid">
+                                <img src="http://farm4.staticflickr.com/3955/15485434258_b3a5bbb689_s.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-4 p-0">
+                                <img src="http://farm4.staticflickr.com/3945/15485436268_846ccca178_s.jpg" alt="" class="img-fluid">
+                                <img src="http://farm4.staticflickr.com/3937/15647100406_34599445cf_s.jpg" alt="" class="img-fluid">
+                                <img src="http://farm8.staticflickr.com/7495/15668907491_1143321f96_s.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-4 p-0">
+                                <img src="http://farm8.staticflickr.com/7430/11299039673_06a1770f19_s.jpg" alt="" class="img-fluid">
+                                <img src="http://farm6.staticflickr.com/5605/15051462043_284910ee7e_s.jpg" alt="" class="img-fluid">
+                                <img src="http://farm4.staticflickr.com/3955/15485434258_b3a5bbb689_s.jpg" alt="" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- comments  -->
+                           <div class="comments py-3 pb-5">
+
+                            <h4 class="text-uppercase">Recent Comments</h4>
+                            <hr class="hhr">
+
+                            <div>
+                              <p>
+                                Falli latine meliore id pro. Ei dico elit epicurei pri.
+                              </p>
+                              <p class="date">
+                                2h ago
+                              </p>
+                            </div>
+                            <div>
+                              <p>
+                                Paulo mnesarchum voluptatibus ne has, ex convenire similique vis.
+                              </p>
+                              <p class="date">
+                                4h ago
+                              </p>
+                            </div>
+                            <div>
+                              <p>
+                                Falli latine meliore id pro. Ei dico elit epicurei pri.
+                              </p>
+                              <p class="date">
+                                6h ago
+                              </p>
+                            </div>
+                            <div>
+                              <p>
+                                Velit ponderum accommodare pri ut. Eu eum diam alterum inermis.
+                              </p>
+                              <p class="date">
+                                8h ago
+                              </p>
+                            </div>
+                            <div>
+                              <p>
+                                Ad esse adipiscing dissentiunt sea, altera integre ea ius.
+                              </p>
+                              <p class="date">
+                                9h ago
+                              </p>
+                            </div>
+
+                           </div>
+
+                           <!-- Tweet updates  -->
+                            <div class="tweet-updates py-3">
+                              
+                              <h4 class="text-uppercase">Tweet Updates</h4>
+                              <hr class="hhr">
+
+                              <div class="mb-3">
+                                <p>
+                                  <a href="#">@ipsome</a> vehicula turpis sed lutpat Quisque vitae quam neque. Morbi cilisis placer at dapibus. <br>
+                                  <a href="#">http://t.co/9xy6KdchNc</a>
+                                </p>
+                                <small>1 hours ago</small>
+                              </div>
+
+                              <div class="mb-3">
+                                <p>
+                                  <a href="#">@ipsome</a> vehicula turpis sed lutpat Quisque vitae quam neque. Morbi cilisis placer at dapibus. <br>
+                                  <a href="#">http://t.co/9xy6KdchNc</a>
+                                </p>
+                                <small>3 hours ago</small>
+                              </div>
+
+                              <div class="mb-3">
+                                <p>
+                                  <a href="#">@ipsome</a> vehicula turpis sed lutpat Quisque vitae quam neque. Morbi cilisis placer at dapibus. <br>
+                                  <a href="#">http://t.co/9xy6KdchNc</a>
+                                </p>
+                                <small>7 hours ago</small>
+                              </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    
+
+
+
+        <footer class="py-5 px-5 pb-3">
+    
+            <div class="row justify-content-center px-5 mx-lg-5">
+      
+              <!-- Column 1  -->
+               <div class="col-sm-12 col-md-6 col-lg-3 col-12 p-2 pt-5">
+                <h3 class="pb-4 fw-normal">CONTACT US</h3>
+                <i class="fa fa-envelope mr-2" aria-hidden="true"></i><a href="#">admin@mail.com</a><br>
+                <i class="fa fa-phone mt-3 mr-2" aria-hidden="true"></i><a href="#">(01) 123 456 7890</a>
+                <p class="text-secondary pt-4 ml-1">1235, Building name, <br>
+                Busy Commercial Street, Big City, <br>
+                  Ny - 4215</p>
+               </div>
+              <!-- Column 1  -->
+               <div class="col-sm-12 col-md-6 col-lg-3 col-12 p-2 pt-5">
+                <h3 class="pb-4 fw-normal text-uppercase">Our Best Service</h3>
+                <ul>
+                  <li><a href="#">Hair Cutting</a></li>
+                  <li><a href="#">Hair Styling</a></li>
+                  <li><a href="#">Detan and Bleach</a></li>
+                  <li><a href="#">Facials</a></li>
+                  <li><a href="#">Hair Colouring</a></li>
+                </ul>
+               </div>
+              <!-- Column 1  -->
+               <div class="col-sm-12 col-md-6 col-lg-3 col-12 p-2 pt-5">
+                <h3 class="pb-4 fw-normal text-uppercase">PRODUCTS WE USE</h3>
+                <ul>
+                  <li><a href="#">Shampoo</a></li>
+                  <li><a href="#">Conditioner</a></li>
+                  <li><a href="#">Treatment</a></li>
+                  <li><a href="#">Styling Products</a></li>
+                  <li><a href="#">Brushes and Combs</a></li>
+                </ul>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 col-12 p-2 pt-5">
+                <h3 class="pb-4 fw-normal text-uppercase">other information</h3>
+                <ul>
+                  <li><a href="#">Brands</a></li>
+                  <li><a href="#">Special Vouchers</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#"> Speacialists in Shop</a></li>
+                  <li><a href="#">Special Services</a></li>
+                </ul>
+                <a href="#" class="pl-0 ml-0"><img src="assets/Home/appstore-google.png" alt="" class="img-fluid"></a>
+                <a href="#"><img src="assets/Home/appstore.png" alt="" class="img-fluid"></a>
+               </div>
+      
+            </div>
+      
+            <div class="container pt-3 text-center">
+              <hr class="bg-secondary mx-2">
+              <small class="justify-content-center">
+                <span>Top Category:</span>
+                <ul>
+                  <li><a href="#">Services</a></li>|
+                  <li><a href="#">Products</a></li>|
+                  <li><a href="#">Spealists</a></li>|
+                  <li><a href="#">Offers</a></li>
+                </ul>
+                
+              </small>
+              <hr class="bg-secondary mx-2">
+              <p class="text-secondary">© 2015 NEOCUT. All Rights Reserved by <span class="fw-bold">Buddha Themes</span></p>
+            </div>
+      
+        </footer>
+
+
+    <!-- JS -->
+    <!-- Boostrap javascript Cdn    -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Separat Cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap 4 java -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!-- Aos Cdn -->
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % 3;
+            showSlide(currentIndex);
+        }
+
+        setInterval(nextSlide, 2000);
+    </script>
+</body>
+
+</html>
